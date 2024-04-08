@@ -6,6 +6,18 @@ sys.stdout = open("output.txt", "w")
 sys.stderr = open("error.txt", "w")
 # your remaining code
 
+input = lambda: sys.stdin.readline().rstrip()
+ 
+T = int(input())
+for _ in range(T):
+    n=int(input())
+    # print(input().split())
+    # pass
+
+    # n, l, r = map(int, input().split())
+    arr = [int(a) - 1 for a in input().split()]
+    print("ARR",arr)
+
 
 ]]></content>
  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
